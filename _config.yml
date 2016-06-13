@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.5612245
 color:
   saturation: 0.7625248
-  lightness: 0.5486552
   brandStrength: 0.4881621
+  rhythmicContrast: 0.5697111
   brandColors:
     - '#000000'
     - '#FFFFFF'
     - '#AFAFAF'
     - '#7A7A7A'
     - '#BDF903'
-  rhythmicContrast: 0.5697111
-typography_spectrum: 0.1143931
+  lightness: 0.5486552
+layout_spectrum: 1
 name: 'Flawless Productions '
